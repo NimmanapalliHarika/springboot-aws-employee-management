@@ -1,1 +1,21 @@
-/.metadata/
+# Maven
+target/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# Spring Boot
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local configuration
+.env
+application-local.properties
+
+# Java
+*.class
